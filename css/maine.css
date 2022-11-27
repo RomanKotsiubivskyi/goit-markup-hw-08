@@ -357,17 +357,6 @@ body {
   color: #188ce8;
 }
 
-@media screen and (min-width: 480px) {
-  .pseudo:not(:first-child)::after {
-    content: "";
-    position: absolute;
-    height: 16px;
-    bottom: 57px;
-    border: 1px solid #d3d3d3;
-    margin-left: -10px;
-  }
-}
-
 .button__open-menu {
   position: absolute;
   top: 10px;
