@@ -1,0 +1,11 @@
+.page-footer {
+  padding: 60px 0;
+  background-color: $bgc-hero-footer;
+  @media screen and(min-width: 1200px) {
+    &__container {
+      display: flex;
+
+      align-items: baseline;
+    }
+  }
+}

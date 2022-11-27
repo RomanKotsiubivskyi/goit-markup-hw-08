@@ -1,0 +1,33 @@
+.logo {
+  font-family: Raleway;
+
+  @include font(700, 24px, 1.174, 0.03em);
+
+  color: $black-color;
+  &--accent {
+    color: $accent-color;
+  }
+  @media screen and(min-width: 768px) {
+    &--accent {
+      color: $accent-color;
+    }
+  }
+}
+
+.page-header {
+  &__logo {
+    padding: 15px 0;
+  }
+}
+
+.page-footer {
+  &__logo {
+    display: block;
+
+    margin-bottom: 32px;
+    color: $primary-white;
+    @media screen and(min-width: 1200px) {
+      margin-bottom: 20px;
+    }
+  }
+}
